@@ -1,0 +1,7 @@
+# >>> strandline local state (managed by `strandline init`) >>>
+# Configuration in .strandline/ (verify.toml, languages.toml) is committed; local state is not.
+/index.json
+/state*
+/*.sqlite*
+/tmp/
+# <<< strandline local state <<<
