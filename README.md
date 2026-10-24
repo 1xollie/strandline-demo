@@ -11,6 +11,10 @@ touches what, tells agents mid-task when a shared interface changes, merges synt
 the *combined* result, sends a failure back to the agent that caused it, and lands the work with a
 verification receipt.
 
+![The demo: a contract alert reaches the poller mid-task and it adapts](strandline-demo.gif)
+
+*A real run, sped up: three Claude haiku agents, one repository. The client agent changes what `retries` means; the poller agent, still working, is alerted by Strandline, adapts, and the combined work lands clean.*
+
 ## What this repository is
 
 Just a tiny TypeScript billing service (`src/http-client.ts`, `src/export.ts`, their tests). It has
