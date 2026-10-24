@@ -1,0 +1,17 @@
+# Checks Strandline runs on a combined result.
+[[check]]
+name = "typecheck"
+run = "'/Users/oworkman/seam/node_modules/.bin/tsc' -p ."
+
+[tests]
+name = "tests"
+all = "node --test tests/"
+files = "node --test {files}"
+patterns = ["tests/**/*.test.ts"]
+
+[repair]
+provider = "claude-code"
+
+[agent]
+model = "haiku"
+max_turns = 15
