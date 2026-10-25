@@ -57,10 +57,14 @@ A run takes about a minute and costs a few cents of model usage.
 
 ## Run it yourself
 
-The demo is part of Strandline (`make demo-real`); see [strandline.dev](https://strandline.dev).
-Pointing it at this repository needs a GitHub login with push access
-(`GITHUB_DEMO_REPO=<owner>/strandline-demo`).
+The demo runs from the Strandline CLI (`make demo-real`), which is coming soon; design partners get it first.
+[Request access at strandline.dev](https://strandline.dev/#partners). To point it at a repository of your own it needs a
+GitHub login with push access (`GITHUB_DEMO_REPO=<owner>/strandline-demo`).
 
 ## License
 
-Apache-2.0, like Strandline itself.
+Apache-2.0 (this demo service).
+
+---
+
+Built by [Oliver Workman](https://github.com/1xollie) · [strandline.dev](https://strandline.dev) · [@Oliver_Workman](https://x.com/Oliver_Workman)
